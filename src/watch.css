@@ -1,0 +1,272 @@
+.ctn{
+    background-color: rgb(245, 245, 245,0.9);
+    opacity: 0.7;
+    color: black;
+}
+.watch{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.im-wa{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 400ms;
+}
+.watch:hover .im-wa{
+    transform: scale(1.2);
+}
+.v-btn:hover{
+    background-color: white;
+    border: solid 2px black;
+    color: black;
+}
+.be-touch{
+    text-align: center;
+    width: 30%;
+}
+.end-email{
+    height: 50px;
+    width: 41%;
+}
+.end-email input{
+    font-size: 14px;
+    width: 80%;
+    border:none;
+    padding: 6px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.end-btn{
+    font-size: 15px;
+    background-color: rgb(24, 20, 20);
+}
+.scl-mdi1{
+    width: 29%;
+    display: flex;
+    justify-content: center;
+}
+.frstico{
+    color: whitesmoke;
+}
+.frstico:hover{
+    color: rgb(82, 81, 81);
+}
+.end-address{
+    line-height: 25px;
+}
+.end-contact{
+    padding-right: 20px;
+}
+.contact-endico{
+    color: rgb(168, 167, 167);
+    margin-right: 20px;
+}
+.contact-endico:hover{
+    color: black;
+}
+.end-rights{
+    width: 50%;
+}
+.end-rights h1{
+    font-size: 15px;
+    margin-left: 55px;
+}
+.end-pay{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.end-pay-img{
+    height: 25px;
+    width: auto;
+    margin-right: 3px;
+}
+.about-nav{
+    font-size: 13px;
+    background-color: rgb(245, 244, 244);
+}
+.about-nav p{
+    margin-left: 7%;
+}
+.about-des{
+    font-size: 23px;
+}
+.nav-deco{
+    text-decoration: none;
+    color: black;
+}
+.logo-nav{
+    height: 55px;
+    width: auto;
+}
+.nav-deco:hover{
+    color: rgb(46, 230, 46);
+}
+.active{
+    color: rgb(46, 230, 46);
+}
+.contact-loca{
+    margin-top: 60px;
+}
+.contact-loca-img{
+    width: 50px;
+}
+.contact-add{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    line-height: 25px;
+}
+.contact-clock-img{
+    width: 50px;
+}
+.contact-input-names{
+    padding: 10px;
+    padding-left: 30px;
+    font-size: 13px;
+    border-style: none;
+    border-radius: 3px;
+    border: 0px;
+    border-color: white;
+    background-color: rgb(241, 241, 241);
+}
+.contact-input-names:focus{
+    background-color: rgb(241, 241, 241);
+    border: 0px;
+}
+.contact-input-container{
+    width: 50%;
+}
+.contact-ref-btn{
+    border: solid black 2px;
+    color: black;
+    background-color: white;
+}
+.contact-ref-btn:hover{
+    background-color: black;
+    color: white;
+}
+.captcha-input{
+    background-color: maroon;
+    border-color: maroon;
+}
+.captcha-input:focus{
+    background-color: maroon;
+    border-color: maroon;
+}
+.Endcard-bg{
+    background-color: rgb(241, 241, 241);
+}
+.seller-banner{
+    background-image: url('./Assest/seller1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: auto;
+}
+.seller-input{
+    margin-left: 10%;
+    width: 30%;
+}
+.seller-input img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.sel-inp-div{
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+}
+.sel-inp-div-form{
+    margin-left: 3%;
+    width: 94%;
+}
+.sel-inp-div-form label{
+    font-size: 13px;
+    font-weight: 500;
+}
+.sel-inp-div-form input{
+    padding: 10px;
+    padding-left: 30px;
+    font-size: 13px;
+    border-style: none;
+    border-radius: 3px;
+    border: 0px;
+    border-color: white;
+    background-color: rgb(241, 241, 241);
+}
+.sel-captcha {
+    padding-bottom: 20px;
+}
+.sel-captcha-inp{
+    width: 35%;
+    height: 40px;
+    margin-left: 20px;
+}
+.sel-captcha span{
+    background-color: pink;
+    width: 10%;
+    font-size: 17px;
+}
+.sel-captcha button{
+    background-color: white;
+    border: solid 2px black;
+    color: black;
+}
+.sel-captcha button:hover{
+    background-color: black;
+    color: white;
+}
+.sel-reg button{
+    background-color: white;
+    color: black;
+    border: solid 2px black;
+}
+.sel-reg button:hover{
+    background-color: black;
+    color: white;
+}
+.sel-panda{
+    border-radius: 50%;
+    width: 190px;
+    height: auto;
+    border:solid 3px white;
+}
+.sel-panda-content-text{
+    margin-top: -70px;
+    margin-bottom: -15px;
+    background-color: #1CC8A0;
+}
+.sel-mobile-brands{
+    border-radius: 20px;
+}
+.nav-sticky{
+    box-shadow: 1px 1px 15px rgb(146, 146, 146);
+}
+.seller-content-endcard{
+    background-color: whitesmoke;
+}
+.seller-content-end{
+    width: 50%;
+}
+.brand-img{
+    width: auto;
+    height: 100px;
+}
+.brand-logo{
+    border: solid 1px whitesmoke;
+    height: 280px;
+}
+.arrow-btn{
+    border: 1px whitesmoke solid;
+    border-radius: 50px;
+}
+.arrow-btn:hover{
+    color: whitesmoke;
+    background-color: black;
+}

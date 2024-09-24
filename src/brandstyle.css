@@ -1,0 +1,41 @@
+.menu-button{
+    cursor: pointer;
+}
+.right-menu{
+    display: inline-block;
+}
+.dropdown-menu{
+    display: none;
+    width: max-content;
+    justify-content: center;
+}
+.dropdown-menu a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+.dropdown-menu a:hover{
+    color: black;
+}
+.right-menu:hover .dropdown-menu{
+    display: block;
+}
+.brand-img{
+    height: 60px;
+}
+.brand-drop tr{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.brand-drop td{
+    display: flex;
+    justify-content: center;
+    border: 1px solid whitesmoke;
+    margin: 5px;
+    width: 180px;
+}
+.brand-drop p{
+    margin-left: 20px;
+}

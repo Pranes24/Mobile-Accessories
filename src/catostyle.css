@@ -1,0 +1,22 @@
+.menu-button{
+    cursor: pointer;
+}
+.right-menu{
+    display: inline-block;
+}
+.dropdown-menu{
+    display: none;
+    width: max-content;
+    justify-content: center;
+}
+.dropdown-menu a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+.dropdown-menu a:hover{
+    color: black;
+}
+.right-menu:hover .dropdown-menu{
+    display: block;
+}
